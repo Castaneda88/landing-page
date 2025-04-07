@@ -42,7 +42,7 @@ ul a{
     background:#1F2937;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding:100px 210px;
     gap:40px;
 
@@ -84,5 +84,43 @@ button{
 
 .section-1a,
 .section-1b{
-    flex:1 1 0;
+    width: 450px;
+}
+
+.section-2{
+    background: white;
+    padding:36px;
+}
+
+.header-2{
+    color:black;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.item-container{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin:50px;
+}
+
+.header-2,
+.text{
+    text-align: center;
+}
+
+.item{
+    width:170px;
+    height:auto
+}
+
+.item img{
+    width:auto;
+    height:170px;
+    border-radius: 15px;
+}
+
+.text{
+    margin: 10px 0;
 }
